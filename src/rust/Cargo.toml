@@ -1,0 +1,16 @@
+[package]
+name = "ergenon-kernel-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["Batuhan ALGÜL <batuhanalgul@proton.me>"]
+description = "Ergenon-Systems Rust Kernel Core"
+license = "Proprietary"
+
+[dependencies]
+# No external dependencies for safety-critical core
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+panic = "abort"
