@@ -1,0 +1,9 @@
+<svg viewBox="0 0 260 28" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="28" fill="#2b2b2b"/>
+  <rect x="120" width="140" height="28" fill="#a83232"/>
+  <text x="60" y="19" font-family="monospace" font-size="12" fill="#E3D5C3" text-anchor="middle">commercial use</text>
+  <text x="190" y="19" font-family="monospace" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">
+    PROHIBITED
+    <animate attributeName="opacity" values="1;0.5;1" dur="1.6s" repeatCount="indefinite"/>
+  </text>
+</svg>
