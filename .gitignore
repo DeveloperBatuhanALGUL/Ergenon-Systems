@@ -1,0 +1,6 @@
+*.o
+*.out
+test/test_sentinel_agent
+test/test_*
+!test/test_*.c
+.DS_Store
